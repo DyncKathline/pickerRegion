@@ -1,0 +1,7 @@
+<!--components/pickerRegion/index.wxml-->
+<picker class="picker-box" disabled="{{disabled}}" mode="multiSelector" bindchange="pickerChange"
+  bindcolumnchange="pickerColumnChange" bindcancel="pickerCancel" value="{{multiIndex}}" range="{{multiArray}}"
+  range-key="{{'name'}}">
+  <view class="picker" wx:if="{{areasString}}"> {{areasString}} </view>
+  <view class="placeholder" wx:else> {{placeholder}} </view>
+</picker>

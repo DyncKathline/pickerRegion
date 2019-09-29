@@ -1,0 +1,7 @@
+/* components/pickerRegion/index.wxss */
+.picker {
+  color: #999999;
+}
+.placeholder {
+  color: #cccccc;
+}
